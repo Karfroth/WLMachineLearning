@@ -4,19 +4,7 @@ This is a repositoy for the ruby gem about machine learning. I am developing thi
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'WLMachineLearning'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install WLMachineLearning
+Not Yet
 
 ## Usage
 
