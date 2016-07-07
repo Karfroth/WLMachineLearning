@@ -33,6 +33,20 @@ You can check my Scala code [here](https://github.com/karfroth/WLML_Scala).
 * Boosted Tree (Ada Boost)          [　]
 * K-Means Clustering                [　]
 
+## Requirement
+
+This gem use [breeze](https://github.com/scalanlp/breeze) and [netlib-java](https://github.com/fommil/netlib-java).
+
+
+### Linux
+* libblas.so.3
+* libgfortran.so.3
+* liblapack.so.3
+
+If you are Fedora user, try this command.
+
+    $ sudo dnf install -y blas lapack libgfortran
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
